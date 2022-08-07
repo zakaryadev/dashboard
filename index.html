@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Custom UICONS internal link -->
+  <link href="/css/uicons-regular-rounded.css" rel="stylesheet">
+  <!-- Google Fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Custom style link -->
+  <link rel="stylesheet" href="/css/index.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  
+  <!-- ICON -->
+  <div class="icon">
+    <div class="inner">
+      <h1 class="iconas">DA</h1>
+      <span>Dashboard</span>
+    </div>
+  </div>
+  <!-- /ICON -->
+
+  <!-- WINDOW -->
+  <div class="window" style="margin: 10px;" title="Dashboard">
+
+    <!-- Dashboard X btns -->
+    <div class="dashboard-titlebar">
+      <span class="circle red close"></span>
+      <span class="circle yellow"></span>
+      <span class="circle green"></span>
+    </div>
+    
+    <!-- /Dashboard X btns -->
+
+    <!-- Dashboard Content -->
+    <div class="dashboard">
+      <!-- Dashboard Container -->
+      <div class="dashboard-container">
+
+        <div class="dashboard-content">
+
+          <!-- Dashboard content header logo, search, etc -->
+          <div class="dashboard-content__header">
+            
+            <div class="dashboard-content__header-logo">
+              <a href="" style="font-size: 24px; font-weight: 700;">
+                Dashboard
+                <!-- <img src="/src/logo.png" alt="Logo" height="64px" style="filter: brightness(0);"> -->
+              </a>
+            </div>
+
+            <div class="dashboard-content__header-search">
+              <i class="fi fi-rr-search"></i>
+              <input type="text" placeholder="Search...">
+            </div>
+
+            <div class="dashboard-content__header-notifications">
+              <span>6 August, 2022</span>
+              <i class="fi-rr-bell"></i>
+              <i class="fi-rr-globe"></i>
+            </div>
+
+          </div>
+          <!-- /Dashboard content header logo, search, etc -->
+
+          <!-- DASHBOARD CONTENT MAIN -->
+          <div class="dashboard-content__main">
+
+            <!-- DASHBOARD CONTENT MAIN NAVBAR-->
+            <div class="dashboard-content__aside">
+              <ul class="navbar-items">
+                <li class="navbar-item navbar-item__active">
+                  <i class="fi fi-rr-apps"></i>
+                  <span>Dashboard</span>
+                </li>
+                <li class="navbar-item">
+                  <i class="fi fi-rr-settings"></i>
+                  <span>Machines</span>
+                </li>
+                <li class="navbar-item">
+                  <i class="fi fi-rr-document"></i>
+                  <span>Transaction list</span>
+                </li>
+                <li class="navbar-item">
+                  <i class="fi fi-rr-ticket"></i>
+                  <span>Tickets</span>
+                </li>
+                <li class="navbar-item">
+                  <i class="fi fi-rr-shield-check"></i>
+                  <span>Security</span>
+                </li>
+                <li class="navbar-item">
+                  <i class="fi fi-rr-user"></i>
+                  <span>Profile</span>
+                </li>
+              </ul>
+            </div>
+            <!-- /DASHBOARD CONTENT MAIN NAVBAR-->
+
+            <!-- DASHBOARD CONTENT MAIN ITEMS-->
+            <div class="dashboard-content__main-main dashboard-main">
+              <h3 class="dashboard-content__main-title">
+                Dashboard
+              </h3>
+              <div class="main-cards">
+  
+                <div class="main-card">
+                  <div class="main-card__header">
+                    <div class="main-card__header-name">
+                      <i class="fi-rr-money"></i>
+                      <strong>Wallet</strong>
+                    </div>
+                    <i class="fi-rr-arrow-small-up"></i>
+                  </div>
+                  <div class="main-card__info">
+                    <span>Current balance</span>
+                    <strong>100,298 $</strong>
+                  </div>
+                </div>
+  
+                <div class="main-card">
+                  <div class="main-card__header">
+                    <div class="main-card__header-name">
+                      <i class="fi-rr-ticket"></i>
+                      <strong>Last Ticket Status</strong>
+                    </div>
+                    <i class="fi-rr-plus-small"></i>
+                  </div>
+                  <div class="main-card__info">
+                    <strong>Hi, My VM does not...</strong>
+                  </div>
+                </div>
+  
+                <div class="main-card">
+                  <div class="main-card__header">
+                    <div class="main-card__header-name">
+                      <i class="fi-rr-document"></i>
+                      <strong>Total Machines</strong>
+                    </div>
+                    <i class="fi-rr-plus-small"></i>
+                  </div>
+                  <div class="main-card__info">
+                    <span>Machines</span>
+                    <strong>20</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="main-table">
+                <div class="main-table__header">
+                  <h1>Machine List</h1>
+                  <span>
+                    See more
+                    <i class="fi-rr-angle-small-right" style="width: 20px !important; height: 20px !important;"></i>
+                  </span>
+                </div>
+                <div class="main-table__table">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Name</td>
+                        <td>Disk Size (Gb)</td>
+                        <td>CPU Core</td>
+                        <td>Memory Size (Mb)</td>
+                        <td>Status</td>
+                      </tr>
+                    
+                      <tr>
+                        <td>Ubuntu 20.04</td>
+                        <td>100</td>
+                        <td>2</td>
+                        <td>2048</td>
+                        <td>
+                          <span class="table-status table-status-active">
+                            <span>Active</span>
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Ubuntu 20.04</td>
+                        <td>100</td>
+                        <td>2</td>
+                        <td>2048</td>
+                        <td>
+                          <span class="table-status table-status-deactive">
+                            <span>Deactive</span>
+                          </span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Ubuntu 20.04</td>
+                        <td>100</td>
+                        <td>2</td>
+                        <td>2048</td>
+                        <td>
+                          <span class="table-status table-status-active">
+                            <span>Active</span>
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="main-table">
+                <div class="main-table__header">
+                  <h1>Users List</h1>
+                  <span>
+                    See more
+                    <i class="fi-rr-angle-small-right"></i>
+                  </span>
+                </div>
+                <div class="main-table__table">
+                  <table>
+                    <tbody class="users-info">
+                      <tr>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Email</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard-content__main-main dashboard-main" >
+              <h3 class="dashboard-content__main-title">
+                Machines
+              </h3>
+              <div class="main-table">
+                <div class="main-table__header">
+                  <h1>Machine Users</h1>
+                  <span>
+                    See more
+                    <i class="fi-rr-angle-small-right"></i>
+                  </span>
+                </div>
+                <div class="main-table__table">
+                  <table>
+                    <tbody class="users-info">
+                      <tr>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Email</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard-content__main-main dashboard-main" >
+              <h3 class="dashboard-content__main-title">
+                Transaction List
+              </h3>
+              <div class="main-cards transaction">
+              </div>
+            </div>
+            <div class="dashboard-content__main-main dashboard-main" >
+              <h3 class="dashboard-content__main-title">
+                Tickets
+              </h3>
+            </div>
+            <div class="dashboard-content__main-main dashboard-main" >
+              <h3 class="dashboard-content__main-title">
+                Security
+              </h3>
+            </div>
+            <div class="dashboard-content__main-main dashboard-main" >
+              <h3 class="dashboard-content__main-title">
+                Profile
+              </h3>
+            </div>
+            <!-- DASHBOARD CONTENT MAIN ITEMS-->
+
+            
+          <!-- DASHBOARD CONTENT MAIN -->
+
+        </div>
+
+      </div>
+      <!-- /Dashboard Container -->
+    </div>
+    <!-- /Dashboard Content -->
+
+  </div>
+  <!-- WINDOW -->
+
+  <!-- SCRIPT -->
+  <script src="./js/index.js"></script>
+
+</body>
+</html>
